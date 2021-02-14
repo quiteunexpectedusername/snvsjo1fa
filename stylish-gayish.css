@@ -1,0 +1,62 @@
+/* gfonts */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+body {
+	background-image: url(bkg.png);
+	background-color: #E6E6E6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.site {
+	max-width: 500px;
+	margin: auto;
+}
+
+.delimiter {
+	margin-top: 150px;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 6em;
+    margin: 0 auto;
+    font-size: 250%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+	font-family: 'Courier Prime', monospace;
+	transition: 0.25s;
+}
+
+.line-1:hover {
+	opacity: 50%;
+	cursor: default;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #CFA967;
+}
+
+::selection {
+  background: #CFA967;
+}
+
+a:link, a:visited {
+	color: #CE222C;
+}
+
+.secret {
+	opacity: 2.5%;
+}
+
+/* yeah i steal code from github what ur gonna do about it? */
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
